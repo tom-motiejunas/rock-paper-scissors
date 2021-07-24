@@ -1,0 +1,11 @@
+.img-box {
+  width: 200px;
+  margin: 3rem;
+  cursor: pointer;
+}
+.img-box:hover {
+  opacity: 0.7;
+}
+.img-box img {
+  color: var(--primary-color);
+}
