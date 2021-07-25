@@ -41,3 +41,14 @@
   background-color: var(--primary-color);
   color: var(--text-color);
 }
+
+@media (max-width: 768px) {
+  .results-box {
+    height: 100%;
+    margin-bottom: 1rem;
+    flex-direction: column;
+  }
+  .round-conclusion {
+    margin-bottom: 1rem;
+  }
+}

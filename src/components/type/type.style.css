@@ -9,3 +9,9 @@
 .img-box img {
   color: var(--primary-color);
 }
+
+@media (max-width: 768px) {
+  .img-box {
+    margin: 3rem 1rem;
+  }
+}

@@ -12,7 +12,6 @@ function game(type, setPlayerWon, setPlayerPick, setCompPick) {
 
   setPlayerPick(type);
   setCompPick(allTypes[computerChoice]);
-  console.log(allTypes[computerChoice], type);
   // All losing conditions if they all are false player won the round
   if (allTypes[computerChoice] === "rock" && type === "scissors") {
     setPlayerWon(false);
@@ -22,7 +21,6 @@ function game(type, setPlayerWon, setPlayerPick, setCompPick) {
     setPlayerWon(false);
   } else if (allTypes[computerChoice] === type) {
     setPlayerWon("draw");
-    console.log("ITS A DRAW");
   } else {
     setPlayerWon(true);
   }

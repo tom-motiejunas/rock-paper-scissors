@@ -22,7 +22,6 @@ function App() {
       setCompScore(compScore + 1);
       setRoundEnded(false);
     } else if (playerWon === "draw") {
-      console.log("draw");
       setRoundEnded(false);
     }
   }, [playerWon]);
